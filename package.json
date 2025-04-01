@@ -1,0 +1,17 @@
+{
+  "name": "video-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natalia Ustinova",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^12.5.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
