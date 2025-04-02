@@ -1,4 +1,4 @@
-import { IStreamLogger } from "../handlers/strem-logger.interface";
+import { IStreamLogger } from "../handlers/stream-logger.interface";
 import {ChildProcessWithoutNullStreams, spawn} from "node:child_process";
 import {ICommandExec} from "./command.types";
 //Template method for executor

@@ -22,7 +22,7 @@ export class FFmpegBuilder {
       throw new Error('No input set')
     }
     const args: string[] = ['-i', this.inputPath]
-    this.options.forEach((key, value) => {
+    this.options.forEach((value, key) => {
       args.push(key)
       args.push(value)
     })

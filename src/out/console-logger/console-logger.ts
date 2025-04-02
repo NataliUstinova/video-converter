@@ -1,4 +1,4 @@
-import {IStreamLogger} from "../../core/handlers/strem-logger.interface";
+import {IStreamLogger} from "../../core/handlers/stream-logger.interface";
 
 export class ConsoleLogger implements IStreamLogger {
   //singleton
@@ -10,13 +10,13 @@ export class ConsoleLogger implements IStreamLogger {
     return ConsoleLogger.logger;
   } 
   end(): void {
-    console.log('end')
+    console.log('Finished')
   }
   error(...args: any[]): void {
-    console.log('error', ...args)
+    console.log(...args)
   }
   log(...args: any[]): void {
-    console.log('log', ...args)
+    console.log(...args)
   }
   
 }
